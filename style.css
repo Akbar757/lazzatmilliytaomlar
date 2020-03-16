@@ -1,0 +1,243 @@
+.header {
+    border: 0 solid white;
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    position: absolute;
+    top: 0%;
+    position: fixed;
+}
+
+#img2 {
+    position: absolute;
+    top: 34%;
+    position: fixed;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 1000px;
+}
+
+#img1 {
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    padding-top: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: black;
+}
+
+.btn-group .button {
+    background-color: white;
+    border: 1px solid rgb(195, 195, 255);
+    color: black;
+    font-family: fantasy;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group .button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group .button:hover {
+    background-color: red;
+}
+
+.btn-group {
+    position: absolute;
+    top: 0%;
+    left: 32%;
+}
+
+
+}
+.head {
+    border: 0 solid white;
+    width: 10%;
+    height: 800px;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    top: 8%;
+    position: fixed;
+}
+.imgg3 {
+    border: 0 solid white;
+    width: 75%;
+    height: 95%;
+    position: absolute;
+    top: 8%;
+    left: 26%;
+}
+.osh {
+    border: 0 solid white;
+    width: 75%;
+    height: 95%;
+    position: absolute;
+    top: 100%;
+    left: 26%;
+}
+.shashlik {
+    border: 0 solid white;
+    width: 75%;
+    height: 95%;
+    position: absolute;
+    top: 194%;
+    left: 26%;
+}
+@media screen and (max-width:710px) {
+    .btn-group .button {
+        font-size: 10px;
+        padding: 10px 27px;
+        align-items: center;
+    }
+    
+    #img2 {
+        position: absolute;
+        top: 38%;
+        left: 1%;
+        position: fixed;
+        width: 39%;
+        height: 25%;
+    }
+    
+    .imgg3 {
+        top: 6%;
+        left: 45%;
+        width: 55%;
+        height: 55%;
+    }
+    
+    .header {
+        height: 5.8%;
+    }
+    
+    .osh {
+        top: 60%;
+        left: 45%;
+        width: 55%;
+        height: 55%;
+    }
+    
+    .shashlik {
+        top: 114%;
+        left: 45%;
+        width: 55%;
+        height: 55%;
+    }
+}
+@media screen and (max-width:550px) {
+    .btn-group .button {
+        font-size: 15px;
+        padding: 10px 27px;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    #img2 {
+        position: absolute;
+        top: 35%;
+        left: 1%;
+        position: fixed;
+        width: 39%;
+        height: 25%;
+    }
+    
+    .imgg3 {
+        top: 6%;
+        left: 45%;
+        width: 55%;
+        height: 45%;
+    }
+    
+    .header {
+        height: 4.8%;
+    }
+    
+    .osh {
+        top: 50%;
+        left: 45%;
+        width: 55%;
+        height: 45%;
+    }
+    
+    .shashlik {
+        top: 95%;
+        left: 45%;
+        width: 55%;
+        height: 45%;
+    }
+}
+@media screen and (max-width:375px) {
+    .btn-group .button {
+        border-radius: 13%;
+        font-size: 15px;
+        padding: 10px 27px;
+        align-items: center;
+        padding: 5px;
+        color: red;
+        font-family: cursive;
+    }
+    
+    .btn-group {
+        position: absolute;
+        top: 25%;
+        left: 24%;
+    }
+    
+    .btn-group .button:hover {
+        background-color: red;
+        color: black;
+    }
+    
+    #img2 {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: 90%;
+        height: 25%;
+    }
+    
+    .imgg3 {
+        top: 35%;
+        left: 0%;
+        width: 100%;
+        height: 45%;
+    }
+    
+    .header {
+        height: 8%;
+        background-color: red;
+    }
+    
+    .osh {
+        top: 80%;
+        left: 0%;
+        width: 100%;
+        height: 45%;
+    }
+    
+    .shashlik {
+        top: 125%;
+        left: 0%;
+        width: 100%;
+        height: 45%;
+    }
+}
